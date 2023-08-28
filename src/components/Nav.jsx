@@ -38,7 +38,7 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="lg:px-4 py-2 font-normal font-jost text-base text-black"
+        className="lg:pl-4 pt-2 pb-1 lg:pb-2 font-normal font-jost text-base text-black"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           Contacto
@@ -64,8 +64,8 @@ const Nav = () => {
   }, []);
  
   return (
-  <div className="fixed top-0 w-full shadow-sm">
-    <Navbar className="mx-auto max-w-[1200px] shadow-none px-4 pt-3 pb-2 lg:py-3 lg:px-0">
+  <div className="fixed top-0 w-full shadow-sm bg-white">
+    <Navbar className="mx-auto max-w-[1200px] shadow-none px-4 py-3 lg:px-0 bg-transparent border-none">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
