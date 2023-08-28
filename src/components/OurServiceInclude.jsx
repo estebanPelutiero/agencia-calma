@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurServiceInclude = () => {
   return (
-    <div>OurServiceInclude</div>
+    <div></div>
   )
 }
 

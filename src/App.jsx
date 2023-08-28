@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './components/Navbar';
+import Nav from './components/Nav';
 import Hero from './components/Hero';
 import WhatWeOffer from './components/WhatWeOffer';
 import LandingExplain from './components/LandingExplain';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Nav />
       <Hero />
       <WhatWeOffer />
       <LandingExplain />
