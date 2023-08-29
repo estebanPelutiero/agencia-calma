@@ -13,12 +13,22 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const NavList = () => {
 
   return (
-    <ul className="mt-6 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mt-6 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-black">
       <Typography
         as="li"
         variant="small"
         color="blue-gray"
-        className="lg:px-4 py-2 font-normal font-jost text-base text-black border-b-[1px] lg:border-none"
+        className="lg:px-4 py-2 font-medium font-jost text-base border-b-[1px] lg:border-none"
+      >
+        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
+          Home
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="lg:px-4 py-2 font-medium font-jost text-base border-b-[1px] lg:border-none"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           Servicio
@@ -28,7 +38,7 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="lg:px-4 py-2 font-normal font-jost text-base text-black border-b-[1px] lg:border-none"
+        className="lg:px-4 py-2 font-medium font-jost text-base border-b-[1px] lg:border-none"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           Precio
@@ -38,7 +48,7 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="lg:pl-4 pt-2 pb-1 lg:pb-2 font-normal font-jost text-base text-black"
+        className="lg:pl-4 pt-2 pb-1 lg:pb-2 font-medium font-jost text-base"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
           Contacto
@@ -65,7 +75,7 @@ const Nav = () => {
  
   return (
   <div className="fixed top-0 w-full shadow-sm bg-white">
-    <Navbar className="mx-auto max-w-[1200px] shadow-none px-4 py-3 lg:px-0 bg-transparent border-none">
+    <Navbar className="mx-auto max-w-[1200px] shadow-none px-4 md:px-8 py-3 lg:px-0 bg-transparent border-none">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
