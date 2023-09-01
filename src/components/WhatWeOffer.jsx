@@ -2,11 +2,13 @@ import React from 'react'
 import Diseño from '../assets/ilustrations/diseñosPersonalizados.png';
 import Responsive from '../assets/ilustrations/responsive.png';
 import Asesoria from '../assets/ilustrations/asesoria.png';
-import Whatsapp from '../assets/icons/whatsapp.png';
+import Whatsapp from '../assets/icons/whatsapp.svg';
 import { Button } from "@material-tailwind/react";
 
 const WhatWeOffer = () => {
+
   return (
+
     <main className='lg:max-w-[1200px] h-fit mx-auto mt-[5.5rem] text-black'>
 
       <section className='px-4 md:px-8 lg:px-0'>
@@ -73,7 +75,7 @@ const WhatWeOffer = () => {
               para tu negocio, sin cargo.
             </p>
             <div className='w-full flex justify-center md:justify-start'>
-              <a href="#"><Button className='mt-7 capitalize font-jost bg-gradient-to-br from-blue to-purple flex items-center'>Ir al chat</Button></a>
+              <a href="#"><Button className='text-base font-medium mt-7 py-2 lowercase font-jost bg-gradient-to-br from-blue to-purple flex items-center'> <span className='uppercase'>I</span>r al chat <img className='w-6 ml-4' src={Whatsapp} alt="" /> </Button></a>
             </div>
           </div>
 

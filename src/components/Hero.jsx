@@ -19,8 +19,8 @@ const Hero = () => {
               La presencia digital <br /> que tu negocio 
               <span className='text-green'> necesita</span> para <span className='text-green'> llegar a todos lados</span></h1>
             <p className='mt-6 md:mt-4 font-normal text-base lg:text-lg text-white'>Ofrecemos desarrollo de páginas web a medida para negocios que buscan impulsar su transformación digital.</p>
-            <Button className='capitalize bg-white text-blue mt-8 md:mt-6 py-2 font-semibold font-jost text-base'>
-              Ver servicios
+            <Button className='lowercase bg-white text-blue mt-8 md:mt-6 py-2 font-semibold font-jost text-base'>
+              <span className='uppercase'>V</span>er servicios
             </Button>
           </div>
 
