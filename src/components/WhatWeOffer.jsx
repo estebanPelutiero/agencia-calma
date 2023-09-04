@@ -66,16 +66,16 @@ const WhatWeOffer = () => {
           </figure>
 
           <div className='md:w-[21.688rem] lg:w-[37.5rem] md:text-start'>
-            <h3 className='text-[2.5rem] lg:text-7xl leading-10 mb-4'>
+            <h3 className='text-[2.5rem] lg:text-7xl leading-10 mb-4 lg:mb-6'>
               Asesoría gratuita
             </h3>
-            <p className='text-base lg:text-xl font-normal'>
+            <p className='text-base lg:text-xl font-normal lg:mb-8 mb-6'>
               Podes agendar una llamada para quitarte dudas 
               y recibir consejo sobre que estilo de pagina es mejor
               para tu negocio, sin cargo.
             </p>
             <div className='w-full flex justify-center md:justify-start'>
-              <a href="#"><Button className='text-base font-medium mt-7 py-2 lowercase font-jost bg-gradient-to-br from-blue to-purple flex items-center'> <span className='uppercase'>I</span>r al chat <img className='w-6 ml-4' src={Whatsapp} alt="" /> </Button></a>
+              <a href="#"><Button className='text-base font-medium py-2 lowercase font-jost bg-gradient-to-br from-blue to-purple flex items-center'> <span className='uppercase'>I</span>r al chat <img className='w-6 ml-4' src={Whatsapp} alt="" /> </Button></a>
             </div>
           </div>
 
