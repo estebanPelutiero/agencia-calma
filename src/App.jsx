@@ -4,11 +4,10 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import WhatWeOffer from './components/WhatWeOffer';
 import LandingExplain from './components/LandingExplain';
-import OurServiceInclude from './components/OurServiceInclude';
+// import OurServiceInclude from './components/OurServiceInclude';
 import Footer from './components/Footer';
 import Spinner from './components/Spinner';
-
-
+import Carousel from './components/Carousel';
 
 function App() {
 
@@ -33,7 +32,8 @@ function App() {
       <Hero />
       <WhatWeOffer />
       <LandingExplain />
-      <OurServiceInclude />
+      {/* <OurServiceInclude /> */}
+      <Carousel />
       <Footer />
     </>
   )

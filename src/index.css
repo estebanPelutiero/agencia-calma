@@ -5,3 +5,19 @@
 body {
     font-family: Jost, sans-serif;
 }
+
+/* .cardShadow {
+    box-shadow: 0 6px 20px -6px #4C83FF;
+} */
+
+.splide__pagination__page {
+    width: 16px;
+    height: 16px;
+    background: rgb(70,219,201);
+    background: linear-gradient(129deg, rgba(70,219,201,1) 0%, rgba(76,131,255,1) 100%); 
+    margin: 0 10px;
+}
+
+.splide__pagination__page.is-active {
+    background: #46DBC9;
+}
