@@ -6,9 +6,10 @@ body {
     font-family: Jost, sans-serif;
 }
 
-/* .cardShadow {
-    box-shadow: 0 6px 20px -6px #4C83FF;
-} */
+.cardShadow {
+    box-shadow: 0px 13px 20px -14px rgba(76,131,255,1),
+    0px 4px 6px -4px rgba(0,0,0,0.1);
+} 
 
 .splide__pagination__page {
     width: 16px;

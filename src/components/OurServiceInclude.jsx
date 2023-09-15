@@ -12,7 +12,7 @@ import {
 
 const OurServiceInclude = () => {
   return (
-    <section className='lg:max-w-[1200px] h-fit mx-auto mt-40 text-black'>
+    <section className='lg:max-w-[1200px] h-fit mx-auto text-black mt-40'>
 
       <h3 className='text-3xl text-start px-4 md:px-8 lg:px-0 mb-8'>Nuestro servicio incluye</h3>
 

@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
 
   return (
 
-    <main className='lg:max-w-[1200px] h-fit mx-auto mt-[5.5rem] text-black'>
+    <main className='lg:max-w-[1200px] h-fit mx-auto mt-20 lg:mt-40 text-black'>
 
       <section className='px-4 md:px-8 lg:px-0'>
 
@@ -75,7 +75,7 @@ const WhatWeOffer = () => {
               para tu negocio, sin cargo.
             </p>
             <div className='w-full flex justify-center md:justify-start'>
-              <a href="#"><Button className='text-base font-medium py-2 lowercase font-jost bg-gradient-to-br from-blue to-purple flex items-center'> <span className='uppercase'>I</span>r al chat <img className='w-6 ml-4' src={Whatsapp} alt="" /> </Button></a>
+              <a href="#"><Button className='hover:scale-[102%] duration-100 ease-in-out text-base font-medium py-2 px-4 lowercase font-jost bg-gradient-to-br from-blue to-purple flex items-center'> <span className='uppercase'>I</span>r al chat <img className='w-5 ml-3' src={Whatsapp} alt="" /> </Button></a>
             </div>
           </div>
 

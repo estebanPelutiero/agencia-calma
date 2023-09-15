@@ -5,9 +5,9 @@ import LandingMobile from '../assets/ilustrations/hablemosMobile.png';
 
 const LandingExplain = () => {
   return (
-    <section className='lg:max-w-[1200px] h-fit mx-auto mt-40 text-black'>
+    <section className='lg:max-w-[1200px] h-fit mx-auto mt-32 lg:mt-40 text-black'>
 
-      <h3 className='text-3xl mb-4 hidden md:block lg:hidden text-start px-8'>
+      <h3 className='text-3xl font-normal mb-4 hidden md:block lg:hidden text-start px-8'>
         Ahora hablemos...
         ¿Que es una landing page? <br />
         ¿Para que sirve?
@@ -32,7 +32,7 @@ const LandingExplain = () => {
             para adquirirlos.
           </p>
 
-          <Button className='py-2 px-7 lowercase bg-gradient-to-br from-blue to-purple text-white font-jost font-medium text-base'><span className='uppercase'>V</span>er Precio</Button>
+          <Button className='hover:scale-[102%] duration-100 ease-in-out py-2 px-7 lowercase bg-gradient-to-br from-blue to-purple text-white font-jost font-medium text-base'><span className='uppercase'>V</span>er Precio</Button>
         </div>
 
       </div>
